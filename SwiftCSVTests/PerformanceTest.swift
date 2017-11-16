@@ -17,9 +17,9 @@ class PerformanceTest: XCTestCase {
         csv = try! CSV(url: csvURL)
     }
 
-    func testParsePerformance() {
-        measure {
-            self.csv.rows
-        }
-    }
+//    func testParsePerformance() {
+//        measure {
+//            self.csv.rows
+//        }
+//    }
 }

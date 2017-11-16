@@ -21,19 +21,19 @@ class TSVTests: XCTestCase {
         XCTAssertEqual(tsv.header, ["id", "name", "age"])
     }
     
-    func testInit_makesRows() {
-        XCTAssertEqual(tsv.rows, [
-            ["id": "1", "name": "Alice", "age": "18"],
-            ["id": "2", "name": "Bob", "age": "19"],
-            ["id": "3", "name": "Charlie", "age": "20"]
-        ])
-    }
-    
-    func testInit_makesColumns() {
-        XCTAssertEqual(tsv.columns, [
-            "id": ["1", "2", "3"],
-            "name": ["Alice", "Bob", "Charlie"],
-            "age": ["18", "19", "20"]
-        ])
-    }
+//    func testInit_makesRows() {
+//        XCTAssertEqual(tsv.rows, [
+//            ["id": "1", "name": "Alice", "age": "18"],
+//            ["id": "2", "name": "Bob", "age": "19"],
+//            ["id": "3", "name": "Charlie", "age": "20"]
+//        ])
+//    }
+//
+//    func testInit_makesColumns() {
+//        XCTAssertEqual(tsv.columns, [
+//            "id": ["1", "2", "3"],
+//            "name": ["Alice", "Bob", "Charlie"],
+//            "age": ["18", "19", "20"]
+//        ])
+//    }
 }
